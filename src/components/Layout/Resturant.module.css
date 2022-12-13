@@ -1,0 +1,38 @@
+.navbar{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    height:4rem;
+    background-color: #8a9eff;
+    
+}
+
+.header{
+    font-size: xx-large;
+    font-family: cursive;
+    /* font-weight:  */
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c6ccff;
+    border-radius: 3rem;
+    margin-top: 1rem;
+}
+
+.cardItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.flagButton{
+    position: absolute;
+    border-radius: 2rem;
+    background-color: #93a1ff;
+    color: azure;
+}
